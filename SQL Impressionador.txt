@@ -1,0 +1,35 @@
+SQL Impressionador
+
+O que é um dado - O que são bancos de dados
+
+SQL é um a linguagem de programação que permite a gente manipular dados em bancos de dados
+
+O que são dados?
+São informações que permitem que a gente chegue ao conhecimento de algo.
+
+"Os dados são o novo petróleo"
+
+Os bancos de dados são um conjunto de tabelas onde são armazenados os dados.
+
+
+SQL
+T-SQL- variação do SQL que é usada no MICROSOFT SQL SERVER
+PL-SQL - variação do SQL que é usada no ORACLE
+PL-pgSQL - 
+
+
+As práticas dos códigos SQL serão realizadas no banco de dados Contoso que é o banco de dados de uma empresa fictícia da Microsoft.
+
+SELECT * FROM DimCustomer  /* Seleciona todas as colunas da tabela DimCustomer */
+
+SELECT * FROM DimStore /* Seleciona todas as colunas da tabela DimStore */
+
+SELECT StoreKey, StoreName, StorePhone FROM DimStore /* Seleciona as colunas StoreKey, StoreName e StorePhone da tabela DimStore */
+
+SELECT * FROM DimProduct
+
+SELECT ProductName, BrandName FROM DimProduct
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
